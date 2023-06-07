@@ -1,0 +1,220 @@
+/*Обнуление*/
+*{
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,*:before,*:after{
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.6vw;
+   scroll-behavior: smooth;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+.header {
+   font-family: 'Roboto', sans-serif;
+   font-size: 2.5vw;
+   color: #252525;
+   text-align: center;
+   box-shadow: rgba(57, 62, 70, 0.5);
+   white-space: nowrap;
+}
+.text {
+   font-size: 1.8vw;
+   padding: 15px;
+   
+}
+.items_list ul {
+   list-style-image: url("../img/icons/tick.png");
+   margin-left: 80px;
+}
+.items_list li {
+   text-decoration: underline 2px #2F77B4;
+}
+.button {
+font-size: 1.4vw;
+color: #EBF4F7;
+max-width: 120px;
+max-height: 45px;
+background: #2F77B4;
+padding: 25px 10px 25px 10px;
+border: none;
+border-radius: 15px;
+margin-top: 10px;
+margin-left: 30px;
+}
+.button:hover {
+   background-color: #2f76b4c5;
+   transition:background-color 0,3s ease ;
+}
+.wrapper {
+   width: 100%;
+   min-height: 100%;
+   height: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  justify-self: center;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background:#2F77B4; 
+  box-shadow: rgba(57, 62, 70, 0.5);
+}
+.links {
+   margin-top: 15px;
+   display: flex;
+   gap: 48px;
+}
+.links a {
+   font-size: 1.4vw;
+   color: white;
+}
+.links a:hover {
+   text-decoration: underline 1px white;
+   transition:text-decoration 0,3s ease ;
+
+}
+.logo {
+   justify-content: flex-start;
+   margin-top: 15px;
+}
+.message {
+   width: 100%;
+   height: 320px;
+   display: flex;
+  justify-content: space-evenly;
+   gap: 20px;
+   padding-top: 120px;
+   background: #EBF4F7;
+}
+.picture img {
+   max-width: 100%;
+   max-height: 320px; 
+   height: 320px;
+   margin-right:120px;
+   border-radius: 15px;
+   opacity: 1.2;
+   box-shadow: rgba(57, 62, 70, 0.5);
+}
+
+   .button {
+      font-size: 1.4vw;
+      color: #EBF4F7;
+      min-width: 160px;
+      max-height: 25px;
+      background: #2F77B4;
+      padding: 10px 5px 10px 5px;
+      border: none;
+      border-radius: 8px;
+      margin-top: 10px;
+      margin-left: 30px;
+     justify-content: center;
+     justify-self: center;
+      }
+      .text {
+         text-align: center;
+      }
+  
+ 
+ .content {
+   width: 100%;
+   height: 320px;
+   padding-bottom: 0px;
+ }
+.services {
+   display: block;
+ 
+}
+.team img  {
+  max-width: 100%;
+  width: 500px;
+  height: 310px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+  padding-top: 15px;
+  border: none;
+  border-radius: 15px;
+}
+.items_list {
+   padding-top: 120px;
+   margin: 15px;
+
+}
+.contact_form {
+   padding-top: 100px;
+   width: 100%;
+   display: block;
+   margin: 0 auto;
+   height: 350px;
+   background-color: #22A0F3;
+  margin-top: 80px;
+  text-align: center;
+}
+.input_area {
+width: 120px;
+height: 25px;
+border: 3px solid #91251C;
+border-radius: 5px;
+background-color: #EBF4F7;
+}
+.input_button {
+   font-size: 1.4vw;
+color: #EBF4F7;
+min-width: 120px;
+min-height: 30px;
+background: #2F77B4;
+padding: 25px 10px 25px 10px;
+border: none;
+border-radius: 15px;
+margin-top: 10px;
+margin-left: 30px;
+}
+.input_button:hover {
+   background-color: #2f76b4c5;
+   transition:background-color 0,3s ease ;
+}
+.footer {
+   background-color: #252525;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   color: #EBF4F7;
+   width: 100%;
+   height: 20px;
+}
+.footer p {
+   text-align: center;
+}
